@@ -1,0 +1,59 @@
+/* Base Reset and Box Model Setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* Layout Containers */
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styling */
+.header {
+  background-color: #1e90ff;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+  border-bottom: 4px solid #1565c0;
+}
+
+/* Card Components */
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  color: #1e90ff;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.footer {
+  background-color: #1e90ff;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  border-top: 4px solid #1565c0;
+  margin-top: 40px;
+}
